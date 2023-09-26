@@ -1,8 +1,8 @@
 # Eureka client configuration
 eureka:
   client:
-    fetchRegistry: true
-    registerWithEureka: true
+    fetchRegistry: false
+    registerWithEureka: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 
