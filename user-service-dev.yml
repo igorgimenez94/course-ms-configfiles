@@ -1,3 +1,5 @@
+server:
+  port: ${CUSTOM.SERVER.PORT:9001}
 # Eureka client configuration
 eureka:
   client:
